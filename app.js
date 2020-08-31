@@ -1,4 +1,5 @@
 function converter() {
+    //Recebe o valor passado no primeiro input
     const binaryvalue = document.getElementById('b-entry').value
     if (binaryvalue === '') {
         return alert('Por favor insira um numero binário');
