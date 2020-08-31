@@ -1,5 +1,5 @@
 function converter() {
-    const binaryvalue = document.getElementById('b-input').value;
+    const binaryvalue = document.getElementById('b-entry').value;
     if (binaryvalue === '') {
         return alert('Por favor insira um numero binário');
     }
