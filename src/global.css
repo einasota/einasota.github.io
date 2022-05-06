@@ -1,0 +1,105 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+/* @keyframes slideIn {
+    0% { margin-bottom: 5%;  }
+    100% { margin-bottom: 0; }
+}
+  
+@keyframes profileMarginTop {
+    0% { margin-top: 200px;  }
+    100% { margin-top: 0; }
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #05010f;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1s ease-in-out;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}   
+
+.main {
+    /* justify-items: center; */
+    margin: auto;
+}
+#profile_image {
+    margin: 2rem auto 0 auto;
+    display: flex;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    transition: all 0.3s;
+}
+
+#profile_image:hover {
+    box-shadow: 0 0 1rem #bbbbbb;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.875rem;
+}
+
+.main-nav img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.main-nav a {
+    display: flex;
+    /* background-color: rgba(67, 31, 130, 0.863); */
+    background-color: #9b9b9b;
+    /* box-shadow: ; */
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 3.5rem;
+    margin: 1rem 0;
+    transition: all 0.3s;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #05010f;
+    font-size: 1.3rem;
+}
+
+.main-nav a:hover:focus {
+    background-color: #8d8d8d;
+    max-width: 21rem;
+    box-shadow: 0 0 0.5rem #bbbbbb;
+}
+
+.main footer span {
+    opacity: 0.5;
+}
+.footer-secondary {
+    opacity: 0.3;
+    margin: 2rem 2rem 2rem 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    justify-content: right;
+}
+.footer-secondary a {
+    text-decoration: none;
+    color: #8257E5;
+}
+
+@media screen and (min-width: 600px){
+    .footer-secondary {
+        margin-bottom: 4rem;
+    }
+}

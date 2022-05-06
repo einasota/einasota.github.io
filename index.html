@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eiNasota - Site</title>
+    <link rel="stylesheet" href="/src/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Jhonata Souza</title>
 </head>
 
 <body>
-    <nav>
-        <menu>
-            <a href="">Sobre</a>
-            <a href="">Contato</a>
-        </menu>
-    </nav>
+    <main class="main">
+        <img src="/src/assets/photo.png" alt="Website creator photo" id="profile_image" />
+        <span class="name">Jhonata Souza</span>
+        <span class="subtitle">Web Development</span>
+        <nav class="main-nav">
 
+            <a href="https://www.linkedin.com/in/einasota/" target="_blank" rel="noopener noreferrer"><img src="/src/assets/icons/linkedin.svg"
+                    alt="LinkedIn Icon">LinkedIn</a>
 
-    <main>
-        <p>Criações:</p>
-        <a href="https://einasota.github.io/Bin2Dec">Bin2Dec</a>
+            <a href="https://github.com/einasota" target="_blank" rel="noopener noreferrer"><img
+                    src="/src/assets/icons/github.svg" alt="GitHub Icon">GitHub</a>
+
+            <a href="http://twitter.com/einasota" target="_blank" rel="noopener noreferrer"><img src="/src/assets/icons/twitter.svg"
+                    alt="Twitter Icon">Twitter</a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer" style="cursor: not-allowed; pointer-events: none"><img src="/src/assets/icons/projects.svg"
+                    alt="Projects Icon">Projetos</a>
+        </nav>
+        <footer>
+            <span> Feito com ♥ </span>
+        </footer>
     </main>
-
-
-    <footer>
-        <p>Todos os direitos reservados,&#169;
-
-            <script>
-                function year() {
-                    let date = new Date
-                    let year = date.getFullYear()
-                    document.write(year)
-                }
-                year()
-            </script>. Criado por <a href="https://github.com/einasota">einasota</a>
-        </p>
+    <footer class="footer-secondary">
+        <span>Inspirado em <a href="https://eliasgcf.github.io/links/">@EliasGabriel</a></span>
     </footer>
-
 </body>
 
 </html>
