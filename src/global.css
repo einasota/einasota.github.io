@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #05010f;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fira Code' ,'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
     animation: fadeIn 1s ease-in-out;
@@ -51,8 +51,12 @@ body {
     justify-content: center;
     margin-top: 20px;
     font-size: 1.875rem;
+    text-transform: uppercase;
 }
-
+.nick {
+    display: flex;
+    justify-content: center;
+}
 .main-nav img {
     width: 2rem;
     height: 2rem;
@@ -96,6 +100,28 @@ body {
 .footer-secondary a {
     text-decoration: none;
     color: #8257E5;
+}
+
+/* Projects CSS styles  */
+
+#backbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #05010f;
+    background-color: #9b9b9b;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+#backbutton:hover {
+    background-color: #8d8d8d;
 }
 
 @media screen and (min-width: 600px){
