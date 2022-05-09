@@ -30,7 +30,6 @@ body {
 }   
 
 .main {
-    /* justify-items: center; */
     margin: auto;
 }
 #profile_image {
@@ -65,9 +64,7 @@ body {
 
 .main-nav a {
     display: flex;
-    /* background-color: rgba(67, 31, 130, 0.863); */
     background-color: #9b9b9b;
-    /* box-shadow: ; */
     align-items: center;
     justify-content: center;
     width: 20rem;
