@@ -48,7 +48,7 @@ body {
 .name {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-size: 1.875rem;
     text-transform: uppercase;
 }
@@ -77,8 +77,8 @@ body {
     font-size: 1.3rem;
 }
 
-.main-nav a:hover:focus {
-    background-color: #8d8d8d;
+.main-nav a:hover {
+    background-color: #bbbbbb;
     max-width: 21rem;
     box-shadow: 0 0 0.5rem #bbbbbb;
 }
@@ -88,40 +88,20 @@ body {
 }
 .footer-secondary {
     opacity: 0.3;
-    margin: 2rem 2rem 2rem 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
     width: 100%;    
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 .footer-secondary a {
     text-decoration: none;
     color: #8257E5;
 }
 
-/* Projects CSS styles  */
-
-#backbutton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    border-radius: 50%;
-    text-decoration: none;
-    color: #05010f;
-    background-color: #9b9b9b;
-    width: 2rem;
-    height: 2rem;
-    padding: 0.5rem;
-}
-
-#backbutton:hover {
-    background-color: #8d8d8d;
-}
-
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
     .footer-secondary {
         margin-bottom: 4rem;
     }
