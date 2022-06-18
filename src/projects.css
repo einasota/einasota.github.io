@@ -9,23 +9,89 @@ body {
     background-color: #05010f;
     font-family: 'Fira Code' ,'Oswald', sans-serif;
     animation: fadeIn 1s ease-in-out;
-    width: 100vw;
-    height: 100vh;
     box-sizing: border-box;
     color: #fff;
     text-align: center;
-    /* display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
 }   
+
+#container header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+
+#container header h1 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+#projects {
+    display: grid;
+    align-self: center;
+    width: 90vw;
+    height: 60vh;
+    /* grid-gap: 2rem; */
+    margin: auto;
+    margin-top: 7rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+#projects div {
+    display: flex;
+    width: 15.625rem;
+    height: 15.625rem;
+    background-color: #8d8d8dce;
+    border: 2px solid #fff;
+    flex-wrap: wrap;
+}
+
+#projects div img {
+    /* position: relative; */
+    top: 0;
+    right: 0;
+    width: 15.625rem;
+    height: 13.125rem;
+    z-index: 3;
+}
+
+#projects div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    width: 7.8125rem;
+    height: 2.5rem;
+}
+#projects div h2 {
+    display:flex;
+    /* position:absolute; */
+    color: white;
+    background-color: #00000000;
+    text-align: center;
+    font-size: 1rem;
+    z-index: 4;
+    /* align-items: center;
+    justify-content: center; */
+}
+#projects .repo {
+    background-color: #1A6FBE;
+    margin: 0 auto;
+}
+
+#projects .demo {
+    background-color: #2FA357;
+}
 
 #backbutton {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
+    text-align: center;
     border-radius: 50%;
     text-decoration: none;
     color: #05010f;

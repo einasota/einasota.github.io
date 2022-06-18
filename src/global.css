@@ -49,12 +49,14 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 1.25rem;
+    margin-bottom: 0;
     font-size: 1.875rem;
     text-transform: uppercase;
 }
 .nick {
     display: flex;
     justify-content: center;
+    font-size: 1.25rem;
 }
 .main-nav img {
     width: 2rem;
@@ -85,6 +87,23 @@ body {
 
 .main footer span {
     opacity: 0.5;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact a {
+    margin: 0;
+    margin-bottom: 1rem;
+    width: 9.60rem;
+}
+
+.contact img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
 }
 .footer-secondary {
     opacity: 0.3;
