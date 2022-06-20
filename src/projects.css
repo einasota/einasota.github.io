@@ -112,3 +112,15 @@ body {
 #backbutton:hover {
     background-color: #8d8d8d;
 }
+
+
+@media screen and (max-width: 768px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #projects .pdiv {
+        margin-bottom: 2rem;
+    }
+}
